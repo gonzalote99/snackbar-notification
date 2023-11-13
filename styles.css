@@ -1,0 +1,29 @@
+.snackbar-wrapper {
+  display: none;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 15px;
+  font-family: 'Gill Sans';
+  color: white;
+  user-select: none;
+  position: fixed;
+  top: 110vh; left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: top .5s ease-in-out, opacity .7s ease-in-out  ;
+}
+
+.snackbar {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.snackbar > img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.snackbar > p {
+  padding: 0;
+  margin: 0;
+}
